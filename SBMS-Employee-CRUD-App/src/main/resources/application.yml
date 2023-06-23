@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+springdoc:
+  swagger-ui:
+    operationsSorter: method
+    use-root-path: true
+  version: '@springdoc.version@' 
+  
+spring:
+  datasource:
+      url:  jdbc:h2:mem:testRest
+      username: sb
+      password: sb
+      driver-class-name: org.h2.Driver
